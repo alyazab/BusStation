@@ -43,7 +43,7 @@ public class welcomePageController {
 				p = FXMLLoader.load(getClass().getResource("employee1.fxml"));
 				Scene scene = new Scene(p);
 				stage.setScene(scene);
-				stage.setTitle("Bus Station login page");
+				stage.setTitle("Bus Station login");
 				stage.setResizable(false);
 				stage.show();
 			} catch (IOException e) {
