@@ -1,0 +1,9 @@
+Aly Wessam Azab 5291 
+Magdy Samir Sedra 5052
+
+
+this application is for Bus station we have used database to link it with drivers , costumers, managers , trips and to handle all modifications that happened in 
+the program .
+we have used scene builder drag and drop program to make our gui scenes and we have used eclipse oxygen .
+Magdy Samir has handled the data base problems And have written the logic code of functions . we used xammp and sql .
+Aly was resposible for making the gui & connecting it with te logic code of data base .

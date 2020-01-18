@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="358.0" prefWidth="539.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.employeeLogin2Controller">
+   <children>
+      <AnchorPane prefHeight="387.0" prefWidth="583.0">
+         <children>
+            <Button fx:id="blogin" alignment="CENTER" layoutX="48.0" layoutY="293.0" mnemonicParsing="false" onAction="#display" prefHeight="39.0" prefWidth="90.0" text="back">
+               <font>
+                  <Font name="System Bold Italic" size="21.0" />
+               </font>
+            </Button>
+            <Button fx:id="blogin1" alignment="CENTER" layoutX="397.0" layoutY="293.0" mnemonicParsing="false" onAction="#display1" prefHeight="45.0" prefWidth="117.0" text="submit">
+               <font>
+                  <Font name="System Bold Italic" size="21.0" />
+               </font>
+            </Button>
+            <Label fx:id="managerLabel" alignment="CENTER" layoutX="368.0" layoutY="25.0" prefHeight="51.0" prefWidth="175.0" text="Manager">
+               <font>
+                  <Font name="System Bold Italic" size="29.0" />
+               </font>
+            </Label>
+            <Label fx:id="passwordLabelmanager" alignment="CENTER" layoutX="26.0" layoutY="216.0" prefHeight="39.0" prefWidth="135.0" text="Password:">
+               <font>
+                  <Font size="26.0" />
+               </font>
+            </Label>
+            <PasswordField fx:id="kkk" layoutX="194.0" layoutY="210.0" prefHeight="51.0" prefWidth="288.0" />
+            <Label fx:id="idLabelmanager" alignment="CENTER" layoutX="26.0" layoutY="110.0" prefHeight="39.0" prefWidth="135.0" text="ID:">
+               <font>
+                  <Font size="26.0" />
+               </font>
+            </Label>
+            <TextField fx:id="idTFmanager" layoutX="194.0" layoutY="104.0" prefHeight="51.0" prefWidth="288.0" />
+         </children>
+      </AnchorPane>
+      <Label fx:id="busLabelmanager" alignment="CENTER" layoutX="55.0" layoutY="24.0" prefHeight="51.0" prefWidth="175.0" text="Bus Station">
+         <font>
+            <Font name="System Bold Italic" size="29.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
